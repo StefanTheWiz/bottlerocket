@@ -844,6 +844,7 @@ dependencies = [
 name = "metal-k8s-1_24"
 version = "0.1.0"
 dependencies = [
+ "aws-iam-authenticator",
  "cni",
  "cni-plugins",
  "kernel-5_15",
